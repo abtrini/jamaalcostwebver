@@ -469,6 +469,19 @@
             "prog_elect_credits": 3,
             "prog_supp_credits": 9,
             "prog_description": "The Associate in Arts degree in Psychology offers a solid base in the area of psychology. It has been specifically designed to furnish participants with the key theoretical understandings and scientific insights into the complexity of human behaviour and mental processes, and to equip them with practical competencies in specific areas. This associate degree provides students with the foundation courses in the discipline of psychology required to transfer into a baccalaureate programme at both regional and extra-regional institutions of higher learning. It will also be an invaluable course of study for those wishing to get certification as competent paraprofessionals in all areas of human development services."
+          },
+          {
+            "prog_code": "PSYC_BSC",
+            "prog_shortname": "bscPsychology",
+            "prog_name": "BSc - Psychology",
+            "prog_level": "Bachelor",
+            "prog_del_mode": "Blended",
+            "dept_code": "SABS",
+            "prog_major_credits": 57,
+            "prog_core_credits": 30,
+            "prog_elect_credits": 18,
+            "prog_supp_credits": 15,
+            "prog_description": "This programme is designed to offer an examination of the distinctive socio-cultural make-up of this society and of the relevance of psychological issues to the local context. Particular attention is paid to current social issues and to training in areas such as conflict intervention and resolution."
           }
         ]
       }

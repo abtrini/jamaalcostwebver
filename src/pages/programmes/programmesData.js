@@ -3671,7 +3671,7 @@ const allCourses = [
     credits: "3"
   },
   {
-    coursecode: "PYSC 205                          ",
+    coursecode: "PSYC 205                          ",
     coursename: "Social Psychology",
     credits: "3"
   },
@@ -3696,8 +3696,43 @@ const allCourses = [
     credits: "3"
   },
   {
+    coursecode: "PSYC 325",
+    coursename: "Theories of Human Development",
+    credits: "3"
+  },
+  {
+    coursecode: "PSYC 340",
+    coursename: "Psychology of Health and Illness",
+    credits: "3"
+  },
+  {
+    coursecode: "PSYC 350",
+    coursename: "Culture, Diversity and Behaviour",
+    credits: "3"
+  },
+  {
+    coursecode: "PSYC 360",
+    coursename: "Theories of Individual Differences",
+    credits: "3"
+  },
+  {
     coursecode: "PSYC 365",
     coursename: "Group Dynamics",
+    credits: "3"
+  },
+  {
+    coursecode: "PSYC 370",
+    coursename: "Theories of Learning",
+    credits: "3"
+  },
+  {
+    coursecode: "PSYC 410",
+    coursename: "History of Psychology",
+    credits: "3"
+  },
+  {
+    coursecode: "PSYC 425",
+    coursename: "Research Design and Analysis",
     credits: "3"
   },
   {
@@ -3711,8 +3746,18 @@ const allCourses = [
     credits: "3"
   },
   {
+    coursecode: "PSYC 433",
+    coursename: "Psychology Seminar II",
+    credits: "3"
+  },
+  {
     coursecode: "PSYC 435",
     coursename: "Counselling Psychology ",
+    credits: "3"
+  },
+  {
+    coursecode: "PSYC 437",
+    coursename: "Forensic Psychology",
     credits: "3"
   },
   {
@@ -3726,8 +3771,33 @@ const allCourses = [
     credits: "3"
   },
   {
+    coursecode: "PSYC 457",
+    coursename: "Psychology of Work",
+    credits: "3"
+  },
+  {
     coursecode: "PSYC 480 ",
     coursename: "Experimental Psychology ",
+    credits: "3"
+  },
+  {
+    coursecode: "PSYC 462",
+    coursename: "Psychology of Behaviour",
+    credits: "3"
+  },
+  {
+    coursecode: "PSYC 468",
+    coursename: "Cognitive Psychology",
+    credits: "3"
+  },
+  {
+    coursecode: "PSYC 498",
+    coursename: "Senior Thesis I",
+    credits: "3"
+  },
+  {
+    coursecode: "PSYC 499",
+    coursename: "Senior Thesis II",
     credits: "3"
   },
   {
@@ -4038,6 +4108,11 @@ const allCourses = [
   {
     coursecode: "SOWK 248",
     coursename: "Counselling Skills for Social Workers",
+    credits: "3"
+  },
+  {
+    coursecode: "SOWK 305",
+    coursename: "Law for Social Workers",
     credits: "3"
   },
   {
@@ -6668,13 +6743,104 @@ const programmes = [
   {
   prog_shortname: "baECCE",
     majorcourses: [
-      "ECCE "
-                         
+      "ECCE 103",
+      "ECCE 120",
+      "ECCE 125",
+      "ECCE 130",
+      "ECCE 135",
+      "ECCE 140",
+      "ECCE 145",
+      "ECCE 150",
+      "EDUC 124",
+      "EDUC 125",
+      "ECCE 200",
+      "ECCE 202",
+      "ECCE 204",
+      "ECCE 205",
+      "ECCE 206",
+      "ECCE 207",
+      "ECCE 210",
+      "ECCE 211",
+      "ECCE 215",
+      "ECCE 240",
+      "ECCE 302",
+      "ECCE 320",
+      "ECCE 340",
+      "ECCE 352",
+      "ECCE 354",
+      "ECCE 360",
+      "ECCE 450",
+      "ECCE 480",
+      "ECCE 482",
+                               
     ],
     specialcourses: [],
-    electivecourses: ["XXXX ###", "XXXX ###", "XXXX ###", "XXXX ###", "XXXX ###", "XXXX ###"],
-    corecourses: ["WRIT 117", "LIBS 130", "COMM 108","MATH 117", "STAT 120", "FYEC 100", "FYEC 400", "XXXX ###", "XXXX ###", "XXXX ###"],
-    supportcourses: ["ITEC 133", "XXXX ###"],
+    electivecourses: [],
+    corecourses: ["WRIT 117", "LIBS 130", "COMM 108", "COMM 118", "MATH 116", "MATH 117", "STAT 120", "FYEC 100", "FYEC 400", "HIST 210", "BIOL 109", "COMM 119"],
+    supportcourses: [],
+    totalcredits: 120,
+    salaries: [
+      {
+        position:"Early Childhood Care and Education Teacher ",
+        figure: "",
+      },
+      {
+        position: "Early Childhood Care and Education Centre Administrator/Teacher ",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      }
+      
+    ],
+    semester: ["September"],
+    campus: ["NOT AVAILABLE"],
+    duration: ["Part-time: 10 semesters"],
+    mode: ["Blended"],
+    GATE: ["Approved"],
+    specialMatricReqs: [],
+  },
+  {
+  prog_shortname: "bscPsychology",
+    majorcourses: [
+      "PSYC 122",
+      "PSYC 205",
+      "PSYC 212",
+      "PSYC 220",
+      "PSYC 230",
+      "PSYC 233",
+      "PSYC 261",
+      "PSYC 325",
+      "PSYC 350",
+      "PSYC 360",
+      "PSYC 370",
+      "PSYC 410",
+      "PSYC 425",
+      "PSYC 433",
+      "PSYC 462",
+      "PSYC 468",
+      "PSYC 480",
+      "PSYC 498",
+      "PSYC 499",
+                             
+    ],
+    specialcourses: [],
+    electivecourses: ["XXXX ###", "XXXX ###", "XXXX ###", "XXXX ###", "XXXX ###", "XXXX ###" ],
+    corecourses: ["WRIT 117", "LIBS 130", "ENGL 200", "MATH 116", "PSYC 103", "STAT 120", "FYEC 100", "FYEC 400", "SOCI 102", "COMM 108"],
+    supportcourses: ["BIOL 109", "HIST 210", "SOCI 250", "SOBE 300", "ENTP 210"],
     totalcredits: 120,
     salaries: [
       {
@@ -6703,13 +6869,180 @@ const programmes = [
       }
       
     ],
-    semester: ["September", "January"],
+    semester: ["NOT AVAILABLE"],
     campus: ["NOT AVAILABLE"],
     duration: ["NOT AVAILABLE"],
     mode: ["Blended"],
     GATE: ["Approved"],
     specialMatricReqs: [],
   },
+   {
+  prog_shortname: "bswSocialWork",
+    majorcourses: [
+      "SOWK 116",
+      "SOWK 122",
+      "SOWK 124",
+      "SOWK 218",
+      "SOWK 234",
+      "SOWK 236",
+      "SOWK 305",
+      "SOWK 245",
+      "SOWK 248",
+      "SOWK 321",
+      "SOWK 319",
+      "SOWK 323",
+      "SOWK 326",
+      "SOWK 426",
+      "SOWK 255",
+      "SOWK 355",
+      "SOWK 455",
+
+
+                             
+    ],
+    specialcourses: [],
+    electivecourses: ["XXXX ###", "XXXX ###", "XXXX ###", "XXXX ###"],
+    corecourses: ["WRIT 117", "LIBS 130", "ENGL 200", "MATH 116", "PSYC 103", "STAT 120", "FYEC 100", "FYEC 400", "SOCI 102", "COMM 108"],
+    supportcourses: ["BIOL 109", "HIST 210", "SOBE 384", "PSYC 103", "PSYC 360", "SOCI 250", "PSYC 122", "PSYC 212"],
+    totalcredits: 120,
+    salaries: [
+      {
+        position:"NOT AVAILABLE",
+        figure: "NOT AVAILABLE",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      }
+      
+    ],
+    semester: ["NOT AVAILABLE"],
+    campus: ["NOT AVAILABLE"],
+    duration: ["NOT AVAILABLE"],
+    mode: ["Blended"],
+    GATE: ["Approved"],
+    specialMatricReqs: [],
+  },
+   {
+  prog_shortname: "aasSocialWork",
+    majorcourses: [
+      "SOWK 116",
+      "SOWK 122",
+      "SOWK 124",
+      "SOWK 218",
+      "SOWK 234",
+      "SOWK 236",
+      "SOWK 245",
+         
+    ],
+    specialcourses: [],
+    electivecourses: ["XXXX ###", "XXXX ###"],
+    corecourses: ["WRIT 117", "LIBS 130", "MATH 116", "FYEC 100", "COMM 108"],
+    supportcourses: ["BIOL 109", "PSYC 103", "SOCI 250", "PSYC 122", "PSYC 212", "SOCI 102"],
+    totalcredits: 60,
+    salaries: [
+      {
+        position:"Social Work Assistant",
+        figure: "NOT AVAILABLE",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      }
+      
+    ],
+    semester: ["September", "January"],
+    campus: ["City Campus", "South Campus"],
+    duration: ["Full-time: 4 semesters", "Part-time: 6 semesters"],
+    mode: ["Blended"],
+    GATE: ["Approved"],
+    specialMatricReqs: [],
+  },
+     {
+  prog_shortname: "aaPsychology",
+    majorcourses: [
+      "PSYC 103",
+      "PSYC 122",
+      "PSYC 205",
+      "PSYC 212",
+      "PSYC 220",
+      "PSYC 230",
+      "PSYC 233",
+      "PSYC 261",
+         
+    ],
+    specialcourses: [],
+    electivecourses: ["XXXX ###"],
+    corecourses: ["WRIT 117", "LIBS 130", "MATH 116", "FYEC 100", "COMM 108"],
+    supportcourses: ["BIOL 109", "ENTP 210", "SOCI 250", "HIST 210", "STAT 120", "SOCI 102"],
+    totalcredits: 60,
+    salaries: [
+      {
+        position:"Research Assistant",
+        figure: "NOT AVAILABLE",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      }
+      
+    ],
+    semester: ["September", "January"],
+    campus: ["City Campus", "South Campus"],
+    duration: ["Full-time: 4 semesters", "Part-time: 6 semesters"],
+    mode: ["Blended"],
+    GATE: ["Approved"],
+    specialMatricReqs: [],
+  },
+  
   
 ];
 
