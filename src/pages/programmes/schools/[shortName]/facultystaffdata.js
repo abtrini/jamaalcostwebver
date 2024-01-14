@@ -15,9 +15,9 @@ const facultystaffdata = () => {
 export default facultystaffdata;
 
 
-// facultystaffdata.getLayout = function getLayout(page) {
-//   return <LayoutNone>{page}</LayoutNone>;
-// };
+facultystaffdata.getLayout = function getLayout(page) {
+  return <LayoutNone>{page}</LayoutNone>;
+};
 
 
 export const staffdata = [

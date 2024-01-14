@@ -1,14 +1,14 @@
-import React from 'react';
-import ProgStyles from '../../../styles/Programmes.module.scss';
-import visitus from '../../../../images/Programmes/visit-home-v2.jpg';
-import SchoolCard from '../../../components/PageComponents/SchoolCard';
-import SchoolImage from '../../../../images/Links/campus 1.jpg';
+import React from "react";
+import ProgStyles from "../../../styles/Programmes.module.scss";
+import visitus from "../../../../images/Programmes/visit-home-v2.jpg";
+import SchoolCard from "../../../components/PageComponents/SchoolCard";
+import SchoolImage from "../../../../images/Links/campus 1.jpg";
 
-import Link from 'next/link';
-import Image from 'next/image';
-import Head from 'next/head';
-import HeadImage from '@/components/PageComponents/HeadImage';
-import headImg from '../../../../images/Programmes/tester2.jpg';
+import Link from "next/link";
+import Image from "next/image";
+import Head from "next/head";
+import HeadImage from "@/components/PageComponents/HeadImage";
+import headImg from "../../../../images/Programmes/tester2.jpg";
 
 const schools = () => {
   return (
@@ -49,6 +49,7 @@ const schools = () => {
           image={SchoolImage}
           schoolname=" School of Liberal Arts, Education and Digital Humanities "
           intro="The School of Liberal Arts, Education, and Digital Humanities produces a diverse range of graduates with varying skills and competencies in the disciplines of education, mathematics, psychology, social work, sociology, criminal justice, and in general, graduates who can make great contributions towards enhancing the social and behavioural development of the nation. To achieve this objective, we constantly scan the environment to ensure that our programmes are innovative and relevant to the needs of our society."
+          linkpage="/programmes/schools/liberal"
           shortname="SLAEDH"
         />
         <SchoolCard
@@ -99,8 +100,7 @@ The Ken Gordon School of Communication Creative and Digital Media's dedicated, q
               <ul className={ProgStyles.areasofstudyul}>
                 <li className={ProgStyles.areasofstudyli}>
                   {" "}
-                  <Link href="#" 
-                  >District Health Visiting</Link>
+                  <Link href="#">District Health Visiting</Link>
                 </li>
                 <li className={ProgStyles.areasofstudyli}>
                   {" "}
@@ -300,7 +300,7 @@ The Ken Gordon School of Communication Creative and Digital Media's dedicated, q
 
               <p className={ProgStyles.applyheading}>Visit us </p>
               <p className={ProgStyles.applytext}>Schedule a tour</p>
-              <Link className={ProgStyles.goto} href="/admissions/visitus">
+              <Link className={ProgStyles.goto} href="#">
                 {" "}
                 Make an appointment
               </Link>
@@ -316,7 +316,7 @@ The Ken Gordon School of Communication Creative and Digital Media's dedicated, q
               <p className={ProgStyles.applytext}>
                 Speak to an Admission Councillor
               </p>
-              <Link className={ProgStyles.goto} href="/">
+              <Link className={ProgStyles.goto} href="#">
                 {" "}
                 Book an appointment with a councillor →
               </Link>
@@ -333,7 +333,7 @@ The Ken Gordon School of Communication Creative and Digital Media's dedicated, q
                 {" "}
                 Ready to start your journey.
               </p>
-              <Link className={ProgStyles.goto} href="/admissions/applynow">
+              <Link className={ProgStyles.goto} href="/admissions/howtoapply">
                 {" "}
                 Apply Now →
               </Link>
