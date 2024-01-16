@@ -113,6 +113,11 @@ const allCourses = [
     coursename: "Media Buying and Planning",
     credits: "3"
   },
+   {
+    coursecode: "ADVT 330",
+    coursename: "Advertisting Campaigns",
+    credits: "2"
+  },
   {
     coursecode: "ADVT 420",
     coursename: "Client Relations",
@@ -326,6 +331,11 @@ const allCourses = [
   {
     coursecode: "BUSI 203",
     coursename: "Leadership and Ethics OR",
+    credits: "3"
+  },
+  {
+    coursecode: "BUSI 216",
+    coursename: "Introduction to International Business",
     credits: "3"
   },
   {
@@ -3810,6 +3820,12 @@ const allCourses = [
     coursename: "Image, Etiquette and Protocol",
     credits: "2"
   },
+   {
+    coursecode: "PUBR 351",
+    coursename: "Applied Public Relations Planning",
+    credits: "2"
+  },
+
   {
     coursecode: "RADG 101",
     coursename: "Fundamentals of Radiological Sciences",
@@ -4182,6 +4198,11 @@ const allCourses = [
   },
   {
     coursecode: "SPAN 107",
+    coursename: "Spanish for Social Settings",
+    credits: "3"
+  },
+   {
+    coursecode: "SPAN 108",
     coursename: "Spanish for Social Settings",
     credits: "3"
   },
@@ -6990,7 +7011,7 @@ const programmes = [
     GATE: ["Approved"],
     specialMatricReqs: [],
   },
-     {
+  {
   prog_shortname: "aaPsychology",
     majorcourses: [
       "PSYC 103",
@@ -7042,8 +7063,1333 @@ const programmes = [
     GATE: ["Approved"],
     specialMatricReqs: [],
   },
-  
-  
+  {
+  prog_shortname: "certCrimJustice",
+    majorcourses: [
+      "CRIM 125",
+      "POLC 127",
+      "CORR 220",
+      "CORR 127",
+      "WRIT 117",
+      "LIBS 130",
+      "COMM 108",
+      "PSYC 103",
+      "SOBE 135"
+         
+    ],
+    specialcourses: [],
+    electivecourses: [],
+    corecourses: [],
+    supportcourses: [],
+    totalcredits: 24,
+    salaries: [
+      {
+        position:"NOT AVAILABLE",
+        figure: "NOT AVAILABLE",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      }
+      
+    ],
+    semester: ["NOT AVAILABLE"],
+    campus: ["NOT AVAILABLE"],
+    duration: ["NOT AVAILABLE"],
+    mode: ["Blended"],
+    GATE: ["Approved"],
+    specialMatricReqs: [],
+  },
+  {
+  prog_shortname: "aasCrimJustice",
+    majorcourses: [
+      "CRIM 125",
+      "POLC 127",
+      "CORR 127",
+      "CRIM 160",
+      "LAWW 130",
+      "CRIM 230",
+      "CRIM 200",
+      "LAWW 135",
+      "LAWW 140",
+      "CORR 210",
+      "CRIM 240",
+         
+    ],
+    specialcourses: [],
+    electivecourses: ["CORR 220", "CRIM 135", "CRIM 170", "POLC 210", "POLC 220"],
+    corecourses: ["WRIT 117", "LIBS 130", "MATH 116", "FYEC 100", "COMM 108"],
+    supportcourses: ["SOCI 102", "PSYC 103", "SOWK 116"],
+    totalcredits: 72,
+    salaries: [
+      {
+        position:"NOT AVAILABLE",
+        figure: "NOT AVAILABLE",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      }
+      
+    ],
+    semester: ["NOT AVAILABLE"],
+    campus: ["NOT AVAILABLE"],
+    duration: ["NOT AVAILABLE"],
+    mode: ["Blended"],
+    GATE: ["Approved"],
+    specialMatricReqs: [],
+  },
+  {
+  prog_shortname: "baCrimJustice",
+    majorcourses: [
+      "CRIM 125",
+      "CRIM 160",
+      "LAWW 130",
+      "CRIM 200",
+      "CRIM 230",
+      "CRIM 240",
+      "CRIM 260",
+      "CORR 210",
+      "LAWW 130",
+      "LAWW 135",
+      "LAWW 140",
+      "CRIM 320",
+      "CRIM 360",
+      "CRIM 480",
+                                  
+    ],
+    specialcourses: ["CORR 127", "POLC 127", "CORR 220", "POLC 300", "POLC 420", "CORR 310", "CORR 415", "CRIM 430"],
+    electivecourses: ["CRIM 135", "CRIM 170", "POLC 210", "POLC 220", "CRIM 245", "POLC 320", "POLC 340", "POLC 410", "CORR 330", "CORR 340", "CORR 360", "CORR 410"],
+    corecourses: ["WRIT 117", "LIBS 130", "RELI 205", "MATH 116", "PSYC 103", "STAT 120", "FYEC 100", "FYEC 400", "SOCI 102", "COMM 108", "SPAN 100", "SOWK 116"],
+    supportcourses: ["BIOL 109", "HIST 210", "SOBE 384", "PSYC 103", "PSYC 360", "SOCI 250", "PSYC 122", "PSYC 212"],
+    totalcredits: 127,
+    salaries: [
+      {
+        position:"NOT AVAILABLE",
+        figure: "NOT AVAILABLE",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      }
+      
+    ],
+    semester: ["NOT AVAILABLE"],
+    campus: ["NOT AVAILABLE"],
+    duration: ["NOT AVAILABLE"],
+    mode: ["Blended"],
+    GATE: ["Approved"],
+    specialMatricReqs: [],
+  },
+  {
+  prog_shortname: "baMassComm",
+    majorcourses: [
+      "ADVT 230",
+      "ADVT 240",
+      "COMM 118",
+      "COMM 120",
+      "COMM 121",
+      "COMM 130",
+      "COMM 351",
+      "COMM 365",
+      "COMM 450",
+      "COMM 452",
+      "COMM 455",
+      "COMM 462",
+      "COMM 499",
+      "GRDE 127",
+      "JOUR 123",
+      "JOUR 131",
+      "JOUR 244",
+      "JOUR 275",
+      "JOUR 305",
+      "LAWW 270",
+      "PUBR 139",
+      "PUBR 221",
+      "ADVT 330",
+      "JOUR 460",
+      "MKTG 290",
+      "PUBR 351",
+      "JOUR 354"
+
+                                  
+    ],
+    specialcourses: [],
+    electivecourses: ["XXXX ###", "XXXX ###", "XXXX ###", "XXXX ###", "XXXX ###"],
+    corecourses: ["WRIT 117", "LIBS 130", "MATH 116", "FYEC 100", "FYEC 400", "ENTP 210", "COMM 108", "SPAN 100", "HIST 210", "XXXX ###"],
+    supportcourses: [],
+    totalcredits: 120,
+    salaries: [
+      {
+        position:"Advertising Specialists",
+        figure: "NOT AVAILABLE",
+      },
+      {
+        position: "Reporters - print, radio or television ",
+        figure: "",
+      },
+      {
+        position: "Sub-editors, editors - print, radio or television ",
+        figure: "",
+      },
+      {
+        position: "Sub-editors, editors - print, radio or television ",
+        figure: "",
+      },
+      {
+        position: "Magazine entrepreneurs",
+        figure: "",
+      },
+      {
+        position: "Social media manager ",
+        figure: "",
+      },
+      {
+        position: "Public relations officers ",
+        figure: "",
+      },
+      {
+        position: "News anchors",
+        figure: "",
+      },
+      {
+        position: "Talk show hosts",
+        figure: "",
+      },
+      {
+        position: "Social media managerCommunications specialists",
+        figure: "",
+      }
+      
+    ],
+    semester: ["September", "January"],
+    campus: ["North Learning Centre"],
+    duration: ["Full-time: 8 semesters", "Part-time: 12 semesters"],
+    mode: ["Blended"],
+    GATE: ["Approved"],
+    specialMatricReqs: [],
+  },
+  {
+  prog_shortname: "baGraphicDes",
+    majorcourses: [
+      "GRDE 122",
+      "GRDE 123",
+      "GRDE 124",
+      "GRDE 129",
+      "GRDE 130",
+      "GRDE 153",
+      "GRDE 182",
+      "GRDE 215",
+      "GRDE 230",
+      "GRDE 233",
+      "GRDE 234",
+      "GRDE 245",
+      "GRDE 253",
+      "GRDE 255",
+      "GRDE 353",
+      "GRDE 363",
+      "GRDE 419",
+      "GRDE 440",
+      "GRDE 442",
+      "GRDE 453",
+      "GRDE 499",
+                                       
+    ],
+    specialcourses: [],
+    electivecourses: ["XXXX ###", "XXXX ###", "XXXX ###"],
+    corecourses: ["WRIT 117", "LIBS 130", "MATH 116", "FYEC 100", "FYEC 400", "SOCI 102", "COMM 108", "SPAN 100", "HIST 210", "RELI 205"],
+    supportcourses: ["PUBR 221", "ENTP 210", "MKTG 205", "ADVT 230", "ADVT 240", "MKTG 290"],
+    totalcredits: 120,
+    salaries: [
+      {
+        position:"Advertising",
+        figure: "NOT AVAILABLE",
+      },
+      {
+        position: "Illustration",
+        figure: "",
+      },
+      {
+        position: "Photography studios",
+        figure: "",
+      },
+      {
+        position: "Package design",
+        figure: "",
+      },
+      {
+        position: "Print publishing",
+        figure: "",
+      },
+      {
+        position: "Web design",
+        figure: "",
+      }      
+    ],
+    semester: ["September", "January"],
+    campus: ["North Learning Centre", "South Campus"],
+    duration: ["Full-time: 8 semesters", "Part-time: 12 semesters"],
+    mode: ["Blended"],
+    GATE: ["Approved"],
+    specialMatricReqs: [],
+  },
+  {
+  prog_shortname: "baJournalism",
+    majorcourses: [
+      "COMM 120",
+      "COMM 121",
+      "COMM 130",
+      "COMM 135",
+      "COMM 351",
+      "COMM 365",
+      "FILM 140",
+      "JOUR 123",
+      "JOUR 131",
+      "JOUR 135",
+      "JOUR 244",
+      "JOUR 275",
+      "JOUR 281",
+      "JOUR 298",
+      "JOUR 305",
+      "JOUR 341",
+      "JOUR 354",
+      "JOUR 360",
+      "JOUR 453",
+      "JOUR 444",
+      "JOUR 460",
+      "JOUR 498",
+      "LAWW 270",
+      "PUBR 221"
+                                       
+    ],
+    specialcourses: [],
+    electivecourses: ["XXXX ###", "XXXX ###", "XXXX ###"],
+    corecourses: ["WRIT 117", "LIBS 130", "MATH 116", "FYEC 100", "FYEC 400", "SOCI 102", "COMM 108", "ENTP 210", "HIST 210", "SCIE 201"],
+    supportcourses: ["XXXX ###"],
+    totalcredits: 120,
+    salaries: [
+      {
+        position:"NOT AVAILABLE",
+        figure: "NOT AVAILABLE",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      }      
+    ],
+    semester: ["September", "January"],
+    campus: ["North Learning Centre", "South Campus"],
+    duration: ["Full-time: 8 semesters", "Part-time: 12 semesters"],
+    mode: ["Blended"],
+    GATE: ["Approved"],
+    specialMatricReqs: [],
+  },
+  {
+  prog_shortname: "baAdvertPromo",
+    majorcourses: [
+      "ADVT 230",
+      "ADVT 240",
+      "ADVT 241",
+      "ADVT 320",
+      "ADVT 330",
+      "ADVT 420",
+      "ADVT 430",
+      "ADVT 444",
+      "ADVT 455",
+      "ADVT 460",
+      "ADVT 499",
+      "GRDE 124",
+      "GRDE 129",
+      "PUBR 139",
+      "PUBR 221",
+      "PUBR 351"
+                           
+    ],
+    specialcourses: [],
+    electivecourses: ["XXXX ###"],
+    corecourses: ["WRIT 117", "LIBS 130", "MATH 116", "FYEC 100", "FYEC 400", "COMM 108", "ENGL 200", "HIST 210", "ENTP 210", "CLTR 120", "MUSC 120", "PSYC 103", "ARTS 120", "SPAN 100"],
+    supportcourses: ["FILM 140", "JOUR 360", "MGMT 200", "MKTG 205", "MKTG 290", "MKTG 300", "MKTG 305", "MKTG 320", "MKTG 325", "MKTG 410"],
+    totalcredits: 120,
+    salaries: [
+      {
+        position:"Advertising Account Representative ",
+        figure: "NOT AVAILABLE",
+      },
+      {
+        position: "Advertising Traffic Coordinator ",
+        figure: "",
+      },
+      {
+        position: "Communications Specialist",
+        figure: "",
+      },
+      {
+        position: "Social Media Account and Advertising Representative ",
+        figure: "",
+      },
+      {
+        position: "Promotions Manager ",
+        figure: "",
+      },
+      {
+        position: "Social Media Analyst/Strategist ",
+        figure: "",
+      }      
+    ],
+    semester: ["September", "January"],
+    campus: ["North Learning Centre"],
+    duration: ["Full-time: 8 semesters", "Part-time: 12 semesters"],
+    mode: ["Blended"],
+    GATE: ["Approved"],
+    specialMatricReqs: [],
+  },
+   {
+  prog_shortname: "aasGraphicDes",
+    majorcourses: [
+      "GRDE 122",
+      "GRDE 123",
+      "GRDE 124",
+      "GRDE 129",
+      "GRDE 130",
+      "GRDE 153",
+      "GRDE 182",
+      "GRDE 215",
+      "GRDE 230",
+      "GRDE 233",
+      "GRDE 234",
+      "GRDE 245",
+      "GRDE 253",
+      "GRDE 255",
+               
+    ],
+    specialcourses: [],
+    electivecourses: [],
+    corecourses: ["WRIT 117", "LIBS 130", "MATH 116", "FYEC 100", "COMM 108"],
+    supportcourses: ["PUBR 221", "ENTP 210"],
+    totalcredits: 62,
+    salaries: [
+      {
+        position:"Advertising ",
+        figure: "NOT AVAILABLE",
+      },
+      {
+        position: "Illustration",
+        figure: "",
+      },
+      {
+        position: "Web Design",
+        figure: "",
+      },
+      {
+        position: "Photography studio",
+        figure: "",
+      },
+      {
+        position: "Print publishing ",
+        figure: "",
+      },
+      {
+        position: "Film and television ",
+        figure: "",
+      }
+      
+    ],
+    semester: ["September", "January"],
+    campus: ["North Learning Centre", "South Campus"],
+    duration: ["Full-time: 4 semesters", "Part-time: 6 semesters"],
+    mode: ["Blended"],
+    GATE: ["Approved"],
+    specialMatricReqs: [],
+  },
+   {
+  prog_shortname: "aasAdvertPromo",
+    majorcourses: [
+      "ADVT 230",
+      "ADVT 240",
+      "ADVT 241",
+      "ADVT 320",
+      "ADVT 330",
+      "ADVT 244",
+      "MKTG 290",
+      "GRDE 124",
+      "GRDE 129",
+      "PUBR 139",
+      "PUBR 221"
+                           
+    ],
+    specialcourses: [],
+    electivecourses: ["XXXX ###"],
+    corecourses: ["WRIT 117", "LIBS 130", "MATH 116", "FYEC 100", "COMM 108", "HIST 210", "ENTP 210", "PSYC 103", "ARTS 120"],
+    supportcourses: ["FILM 140", "MGMT 200", "MKTG 205", "MKTG 305"],
+    totalcredits: 120,
+    salaries: [
+      {
+        position:"Advertising Account Representative ",
+        figure: "NOT AVAILABLE",
+      },
+      {
+        position: "Advertising Traffic Coordinator ",
+        figure: "",
+      },
+      {
+        position: "Communications Assistant / Officer",
+        figure: "",
+      },
+      {
+        position: "Social Media Account and Advertising Representative ",
+        figure: "",
+      },
+      {
+        position: "Script Writer",
+        figure: "",
+      },
+      {
+        position: "Promotions Officer ",
+        figure: "",
+      }      
+    ],
+    semester: ["September", "January"],
+    campus: ["North Learning Centre"],
+    duration: ["Full-time: 4 semesters", "Part-time: 6 semesters"],
+    mode: ["Blended"],
+    GATE: ["Approved"],
+    specialMatricReqs: [],
+  },
+   {
+  prog_shortname: "aaJournalism",
+    majorcourses: [
+      "COMM 120",
+      "COMM 121",
+      "COMM 130",
+      "COMM 135",
+      "FILM 140",
+      "JOUR 123",
+      "JOUR 131",
+      "JOUR 135",
+      "JOUR 244",
+      "JOUR 275",
+      "JOUR 281",
+      "JOUR 298",
+      "LAWW 270",
+      "PUBR 221"
+                                       
+    ],
+    specialcourses: [],
+    electivecourses: [],
+    corecourses: ["WRIT 117", "LIBS 130", "MATH 116", "FYEC 100", "COMM 108", "SPAN 100"],
+    supportcourses: [],
+    totalcredits: 61,
+    salaries: [
+      {
+        position:"Reporters - print, radio or television",
+        figure: "NOT AVAILABLE",
+      },
+      {
+        position: "Photojournalist",
+        figure: "",
+      },
+      {
+        position: "Corporate communicators",
+        figure: "",
+      },
+      {
+        position: "Sub-editors, editors",
+        figure: "",
+      },
+      {
+        position: "Producers - print, radion or television ",
+        figure: "",
+      },
+     
+    ],
+    semester: ["September", "January"],
+    campus: ["North Learning Centre", "South Campus", "City Campus"],
+    duration: ["Full-time: 4 semesters", "Part-time: 6 semesters"],
+    mode: ["Blended"],
+    GATE: ["Approved"],
+    specialMatricReqs: [],
+  },
+  {
+  prog_shortname: "aasJourPubRel",
+    majorcourses: [
+      "COMM 120",
+      "COMM 121",
+      "COMM 130",
+      "JOUR 123",
+      "JOUR 131",
+      "JOUR 244",
+      "JOUR 255",
+      "JOUR 275",
+      "LAWW 270",
+      "PUBR 139",
+      "PUBR 221",
+      "ADVT 230",
+      "GRDE 127"
+                                       
+    ],
+    specialcourses: [],
+    electivecourses: ["XXXX ###", "XXXX ###"],
+    corecourses: ["WRIT 117", "LIBS 130", "MATH 116", "FYEC 100", "COMM 108"],
+    supportcourses: ["ENTP 210"],
+    totalcredits: 61,
+    salaries: [
+      {
+        position:"Reporters - print, radio or television",
+        figure: "NOT AVAILABLE",
+      },
+      {
+        position: "Sub-editors, editors - print, radio or television",
+        figure: "",
+      },
+      {
+        position: "Communications specialists ",
+        figure: "",
+      },
+      {
+        position: "Public relations officers ",
+        figure: "",
+      },
+      {
+        position: "Writers - print, radio or television ",
+        figure: "",
+      },
+     
+    ],
+    semester: ["September", "January"],
+    campus: ["North Learning Centre", "South Campus", "City Campus"],
+    duration: ["Full-time: 4 semesters", "Part-time: 6 semesters"],
+    mode: ["Blended"],
+    GATE: ["Approved"],
+    specialMatricReqs: [],
+  },
+   {
+  prog_shortname: "aaSpanish",
+    majorcourses: [
+      "HIST 235",
+      "LAST 120",
+      "LAST 121",
+      "SPAN 105",
+      "SPAN 107",
+      "SPAN 108",
+      "SPAN 121",
+      "SPAN 140",
+      "SPAN 150",
+      "SPAN 210",
+      "SPAN 211",
+      "SPAN 231",
+      "SPAN 246",
+      "SPAN 295"
+                                    
+    ],
+    specialcourses: [],
+    electivecourses: [],
+    corecourses: ["WRIT 117", "LIBS 130", "MATH 116", "FYEC 100", "COMM 108"],
+    supportcourses: [],
+    totalcredits: 63,
+    salaries: [
+      {
+        position:"Spanish Language Customer Service Representative ",
+        figure: "$4000.00 ",
+      },
+      {
+        position: "Spanish Language Administrative Assistant",
+        figure: "$8000.00 ",
+      },
+      {
+        position: "Teaching Assistant",
+        figure: "$6000.00",
+      },
+      {
+        position: "Research Officer ",
+        figure: "$8500.00",
+      }
+           
+    ],
+    semester: ["September", "January"],
+    campus: ["City Campus"],
+    duration: ["Full-time: 5 semesters", "Part-time: 8 semesters"],
+    mode: ["Blended"],
+    GATE: ["Approved"],
+    specialMatricReqs: [],
+  },
+   {
+  prog_shortname: "aasSpanForBus",
+    majorcourses: [
+      "LAST 120",
+      "LAST 121",
+      "LAST 225",
+      "SPAN 121",
+      "SPAN 122",
+      "SPAN 123",
+      "SPAN 130",
+      "SPAN 210",
+      "SPAN 211",
+      "SPAN 230",
+      "SPAN 240",
+      "SPAN 247",
+                                    
+    ],
+    specialcourses: [],
+    electivecourses: [],
+    corecourses: ["WRIT 117", "LIBS 130", "MATH 116", "FYEC 100", "COMM 108"],
+    supportcourses: ["BUSI 216", "MKTG 205", "MKTG 330"],
+    totalcredits: 63,
+    salaries: [
+      {
+        position:"NOT AVAILABLE",
+        figure: "NOT AVAILABLE ",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      }
+           
+    ],
+    semester: ["September"],
+    campus: [""],
+    duration: ["Full-time:  semesters", "Part-time:  semesters"],
+    mode: ["Blended"],
+    GATE: ["Approved"],
+    specialMatricReqs: [],
+  },
+  {
+  prog_shortname: "baLatinAmerStud",
+    majorcourses: [
+      "HIST 225",
+      "HIST 235",
+      "LAST 120",
+      "LAST 121",
+      "LAST 225",
+      "LAST 375",
+      "LAST 410",
+      "LAST 447",
+      "LAST 441",
+      "LAST 442",
+      "PORT 150",
+      "SPAN 121",
+      "SPAN 140",
+      "SPAN 150",
+      "SPAN 210",
+      "SPAN 211",
+      "SPAN 231",
+      "SPAN 246",
+      "SPAN 295",
+      "SPAN 360",
+      "SPAN 450",
+      "SPAN 460"
+                                  
+    ],
+    specialcourses: [],
+    electivecourses: ["XXXX ###", "XXXX ###", "XXXX ###", "XXXX ###", "XXXX ###", "XXXX ###", "XXXX ###"],
+    corecourses: ["WRIT 117", "LIBS 130", "MATH 116", "FYEC 100", "FYEC 400", "COMM 108", "XXXX ###", "XXXX ###", "XXXX ###", "XXXX ###"],
+    supportcourses: [],
+    totalcredits: 121,
+    salaries: [
+      {
+        position:"NOT AVAILABLE",
+        figure: "NOT AVAILABLE",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      }
+      
+      
+    ],
+    semester: ["September", "January"],
+    campus: ["North Learning Centre"],
+    duration: ["Full-time:  semesters", "Part-time:  semesters"],
+    mode: ["Blended"],
+    GATE: ["Approved"],
+    specialMatricReqs: [],
+  },
+  {
+  prog_shortname: "baSpanForBusi",
+    majorcourses: [
+      "LAST 120",
+      "LAST 121",
+      "LAST 225",
+      "LAST 375",
+      "PORT 150",
+      "PORT 250",
+      "SPAN 121",
+      "SPAN 122",
+      "SPAN 130",
+      "SPAN 140",
+      "SPAN 150",
+      "SPAN 210",
+      "SPAN 211",
+      "SPAN 230",
+      "SPAN 231",
+      "SPAN 240",
+      "SPAN 247",
+      "SPAN 295",
+      "SPAN 310",
+      "SPAN 315",
+      "SPAN 447",
+      "SPAN 450",
+
+                                  
+    ],
+    specialcourses: [],
+    electivecourses: [],
+    corecourses: ["WRIT 117", "LIBS 130", "MATH 116", "FYEC 100", "FYEC 400", "COMM 108", "XXXX ###", "XXXX ###", "XXXX ###", "XXXX ###"],
+    supportcourses: ["XXXX ###", "XXXX ###", "XXXX ###", "XXXX ###", "XXXX ###", "XXXX ###"],
+    totalcredits: 125,
+    salaries: [
+      {
+        position:"NOT AVAILABLE",
+        figure: "NOT AVAILABLE",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      }
+      
+      
+    ],
+    semester: ["September", "January"],
+    campus: ["North Learning Centre"],
+    duration: ["Full-time:  semesters", "Part-time:  semesters"],
+    mode: ["Blended"],
+    GATE: ["Approved"],
+    specialMatricReqs: [],
+  },
+  {
+  prog_shortname: "dipAdvertPromo",
+    majorcourses: [
+      "ADVT 230",
+      "ADVT 240",
+      "ADVT 241",
+      "ADVT 320",
+      "FILM 140",
+      "MKTG 290",
+      "GRDE 129",
+      "PUBR 139",
+      "MGMT 200",
+      "MKTG 305"
+                           
+    ],
+    specialcourses: [],
+    electivecourses: [],
+    corecourses: [],
+    supportcourses: [],
+    totalcredits: 30,
+    salaries: [
+      {
+        position:"Advertising Account Representative ",
+        figure: "NOT AVAILABLE",
+      },
+      {
+        position: "Advertising Traffic Coordinator ",
+        figure: "",
+      },
+      {
+        position: "Communications Assistant / Officer",
+        figure: "",
+      },
+      {
+        position: "Social Media Account and Advertising Representative ",
+        figure: "",
+      },
+      {
+        position: "Marketing / Sales Assistant",
+        figure: "",
+      },
+      {
+        position: "Promotions Officer ",
+        figure: "",
+      }      
+    ],
+    semester: ["September", "January"],
+    campus: ["North Learning Centre"],
+    duration: ["Full-time: 2 semesters", "Part-time: 4 semesters"],
+    mode: ["Blended"],
+    GATE: ["Approved"],
+    specialMatricReqs: [],
+  },
+  {
+  prog_shortname: "certAdvertPromo",
+    majorcourses: [
+      "ADVT 230",
+      "ADVT 240",
+      "ADVT 241",
+      "MKTG 290",
+      "MGMT 200",
+                                 
+    ],
+    specialcourses: [],
+    electivecourses: [],
+    corecourses: [],
+    supportcourses: [],
+    totalcredits: 15,
+    salaries: [
+      {
+        position:"Advertising Account Representative ",
+        figure: "NOT AVAILABLE",
+      },
+      {
+        position: "Advertising Traffic Coordinator ",
+        figure: "",
+      },
+      {
+        position: "Events Planner",
+        figure: "",
+      },
+      {
+        position: "Entrepreneur ",
+        figure: "",
+      },
+      {
+        position: "Advertising Copywriter ",
+        figure: "",
+      },
+      {
+        position: "Social Media Account and Advertising Coordinator",
+        figure: "",
+      }      
+    ],
+    semester: ["September", "January"],
+    campus: ["North Learning Centre"],
+    duration: ["Full-time: N/A", "Part-time: 9 - 12 Months"],
+    mode: ["Blended"],
+    GATE: ["Approved"],
+    specialMatricReqs: [],
+  },
+  {
+  prog_shortname: "certGraphicDes",
+    majorcourses: [
+      "GRDE 122",
+      "GRDE 129",
+      "GRDE 130",
+      "GRDE 153",
+      "GRDE 182",
+                                 
+    ],
+    specialcourses: [],
+    electivecourses: [],
+    corecourses: [],
+    supportcourses: [],
+    totalcredits: 15,
+    salaries: [
+      {
+        position:"Social Media Content Creator",
+        figure: "NOT AVAILABLE",
+      },
+      {
+        position: "Junior Graphic Designer",
+        figure: "",
+      },
+      
+      {
+        position: "Entrepreneur ",
+        figure: "",
+      }
+         
+    ],
+    semester: ["September", "January"],
+    campus: ["North Learning Centre", "South Campus"],
+    duration: ["Full-time: N/A", "Part-time: 9 - 12 Months"],
+    mode: ["Blended"],
+    GATE: ["Approved"],
+    specialMatricReqs: [],
+  },
+  {
+  prog_shortname: "certJournalism",
+    majorcourses: [
+      "JOUR 123",
+      "JOUR 131",
+      "JOUR 135",
+      "LAWW 270"
+                                     
+    ],
+    specialcourses: [],
+    electivecourses: [],
+    corecourses: [],
+    supportcourses: [],
+    totalcredits: 12,
+    salaries: [
+      {
+        position:"Video Editors ",
+        figure: "NOT AVAILABLE",
+      },
+      {
+        position: "Media Cameramen",
+        figure: "",
+      },
+      
+      {
+        position: "Script Writers",
+        figure: "",
+      }
+         
+    ],
+    semester: ["September", "January"],
+    campus: ["North Learning Centre", "South Campus", "City Campus"],
+    duration: ["Full-time: N/A", "Part-time: 9 - 12 Months"],
+    mode: ["Blended"],
+    GATE: ["Approved"],
+    specialMatricReqs: [],
+  },
+   {
+  prog_shortname: "certWkplaceSkills",
+    majorcourses: [
+      "COMM 119",
+      "ITEC 121",
+      "MKTG 125",
+      "COMM 105",
+      "COMM 118",
+      "PUBR 221"
+                                     
+    ],
+    specialcourses: [],
+    electivecourses: [],
+    corecourses: [],
+    supportcourses: [],
+    totalcredits: 15,
+    salaries: [
+      {
+        position:"Executive Assistant ",
+        figure: "NOT AVAILABLE",
+      },
+      {
+        position: "Clerical Assistant ",
+        figure: "",
+      },
+      
+      {
+        position: "Customer Service Representative ",
+        figure: "",
+      },
+      {
+        position: "Entrepreneur ",
+        figure: "",
+      },
+      {
+        position: "Virtual Office Assistant",
+        figure: "",
+      }
+         
+    ],
+    semester: ["September", "January"],
+    campus: ["North Learning Centre"],
+    duration: ["Full-time: N/A", "Part-time: 9 - 12 Months"],
+    mode: ["Blended"],
+    GATE: ["Approved"],
+    specialMatricReqs: [],
+  },
+  {
+  prog_shortname: "certPhotoVid",
+    majorcourses: [
+      "GRDE 215",
+      "FILM 140",
+      "ADVT 241",
+      "GRDE 225",
+      "FILM 271"
+                                          
+    ],
+    specialcourses: [],
+    electivecourses: [],
+    corecourses: [],
+    supportcourses: [],
+    totalcredits: 15,
+    salaries: [
+      {
+        position:"Executive Assistant ",
+        figure: "NOT AVAILABLE",
+      },
+      {
+        position: "Clerical Assistant ",
+        figure: "",
+      },
+      
+      {
+        position: "Customer Service Representative ",
+        figure: "",
+      },
+      {
+        position: "Entrepreneur ",
+        figure: "",
+      },
+      {
+        position: "Virtual Office Assistant",
+        figure: "",
+      }
+         
+    ],
+    semester: ["September", "January"],
+    campus: ["North Learning Centre", "South Campus"],
+    duration: ["Full-time: N/A", "Part-time: 9 - 12 months"],
+    mode: ["Blended"],
+    GATE: ["Approved"],
+    specialMatricReqs: [],
+  },
+  {
+  prog_shortname: "certPublicRel",
+    majorcourses: [
+      "COMM 108",
+      "MGMT 200",
+      "PUBR 221",
+      "PUBR 139",
+      "MKTG 290"
+                                          
+    ],
+    specialcourses: [],
+    electivecourses: [],
+    corecourses: [],
+    supportcourses: [],
+    totalcredits: 14,
+    salaries: [
+      {
+        position:"Public Relations Assistant",
+        figure: "NOT AVAILABLE",
+      },
+      {
+        position: "Events Planner ",
+        figure: "",
+      },
+      
+      {
+        position: "Public Relations Officer  ",
+        figure: "",
+      },
+      {
+        position: "Entrepreneur ",
+        figure: "",
+      },
+      {
+        position: "Lobbyist",
+        figure: "",
+      }
+         
+    ],
+    semester: ["September", "January"],
+    campus: ["North Learning Centre", "City Campus", "South Campus"],
+    duration: ["Full-time: N/A", "Part-time: 2 semesters"],
+    mode: ["Blended"],
+    GATE: ["Approved"],
+    specialMatricReqs: [],
+  },
+  {
+  prog_shortname: "certSpanSCTE",
+    majorcourses: [
+      "SPAN 105",
+      "SPAN 107",
+      "SPAN 108",
+      "SPAN 121",
+      "LAST 120"
+                                          
+    ],
+    specialcourses: [],
+    electivecourses: [],
+    corecourses: [],
+    supportcourses: [],
+    totalcredits: 16,
+    salaries: [
+      {
+        position:"NOT AVAILABLE",
+        figure: "NOT AVAILABLE",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      }
+         
+    ],
+    semester: ["September", "January"],
+    campus: ["North Learning Centre"],
+    duration: ["Full-time: N/A", "Part-time: 2 semesters"],
+    mode: ["Blended"],
+    GATE: ["Approved"],
+    specialMatricReqs: [],
+  },
+  {
+  prog_shortname: "certSPANSCB",
+    majorcourses: [
+      "SPAN 105",
+      "SPAN 107",
+      "SPAN 108",
+      "SPAN 122",
+      "LAST 225"
+                                          
+    ],
+    specialcourses: [],
+    electivecourses: [],
+    corecourses: [],
+    supportcourses: [],
+    totalcredits: 14,
+    salaries: [
+      {
+        position:"NOT AVAILABLE",
+        figure: "NOT AVAILABLE",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      }
+         
+    ],
+    semester: ["September", "January"],
+    campus: ["North Learning Centre"],
+    duration: ["Full-time: N/A", "Part-time: 2 semesters"],
+    mode: ["Blended"],
+    GATE: ["Approved"],
+    specialMatricReqs: [],
+  },
 ];
 
 export const getCourses = function (courseList) {

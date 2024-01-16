@@ -373,7 +373,9 @@
         "headImage": "/images/schools/departments/CRIMheader.png",
         "image": "/images/schools/departments/CRIMsmall.png",
         "summary": "The Department of Criminal Justice, Human Security, and Legal Studies is a multidisciplinary department that offers students a comprehensive education in the areas of crime, law, and society. The Department offers a variety of courses that cover criminological and victimological theories, criminal justice and law.",
-        "coreValues": [],
+        "coreValues": ["Excellence in teaching and learning: The Department is committed to providing students with a high-quality education that prepares them for success in their careers and in life.", "Diversity and inclusion: The Department values diversity and inclusion, and it is committed to creating a welcoming and supportive environment for all students.","Integrity and ethics: The Department upholds the highest standards of integrity and ethics, and it expects its students to do the same.","Social responsibility: The Department is committed to using its knowledge and expertise to contribute to the peace, security and safety of the society.", "Collaboration and innovation: The Department is committed to collaborating with other departments and organizations, and it encourages its students to be innovative and creative thinkers.","Social justice: The Department is committed to social justice, and believes that everyone deserves to be treated fairly and with respect.", "Service to the community: The Department is committed to serving the community, and believes that students should have the opportunity to use their skills and knowledge to make a positive impact on the world.","Professionalism: The Department expects students to conduct themselves in a professional manner, and to uphold the highest ethical standards."
+      
+      ],
         "shortName": "Criminal Justice",
         "contacts": ["rlovelace"],
         "dept_code": "CRIM",
@@ -403,7 +405,7 @@
             "prog_core_credits": 21,
             "prog_elect_credits": 3,
             "prog_supp_credits": 3,
-            "prog_description": "The Associate in Applied Science degree in Criminal Justice targets professionals in the protective services and security industries as well as persons interested in careers in these areas. The aim of the programme is to enhance students’ knowledge, understanding and competence to confront the complex challenges encountered by professionals in crime, justice and public safety contexts. All credits earned in this programme will transfer to the Bachelor of Arts degree in Criminal Justice."
+            "prog_description": "The Associate in Applied Science degree in Criminal Justice targets professionals in the protective services and security industries as well as persons interested in careers in these areas. The aim of the programme is to enhance students' knowledge, understanding and competence to confront the complex challenges encountered by professionals in crime, justice and public safety contexts. All credits earned in this programme will transfer to the Bachelor of Arts degree in Criminal Justice."
           },
           {
             "prog_code": "CERT_CRIM",
@@ -938,9 +940,61 @@
             "dept_code": "DMAC",
             "prog_major_credits": 64,
             "prog_core_credits": 30,
-            "prog_elect_credits": 0,
-            "prog_supp_credits": 26,
+            "prog_elect_credits": 9,
+            "prog_supp_credits": 17,
             "prog_description": "In a profession that combines artistic ability, creativity, typography, photography, video, film, web and computer knowledge, graphic designers are challenged to communicate through a variety of media. Consequently, the Bachelor of Arts Degree in Graphic Design is structured to meet the needs of the industry, and create work-ready graduates. This program utilizes current technology, specific to design, and is inclusive of specialized courses in the field of advertising. Thus, the graphic design bachelor’s student develops visual, written and verbal communication skills which they employ in their designs."
+          },
+          {
+            "prog_code": "JOUR_BA",
+            "prog_shortname": "baJournalism",
+            "prog_name": "BA Journalism",
+            "prog_level": "Bachelor",
+            "prog_del_mode": "Blended",
+            "dept_code": "DMAC",
+            "prog_major_credits": 77,
+            "prog_core_credits": 32,
+            "prog_elect_credits": 3,
+            "prog_supp_credits": 9,
+            "prog_description": ""
+          },
+          {
+            "prog_code": "ADVERTPROMO_BA",
+            "prog_shortname": "baAdvertPromo",
+            "prog_name": "BA Advertising and Promotions",
+            "prog_level": "Bachelor",
+            "prog_del_mode": "Blended",
+            "dept_code": "DMAC",
+            "prog_major_credits": 45,
+            "prog_core_credits": 42,
+            "prog_elect_credits": 3,
+            "prog_supp_credits": 30,
+            "prog_description": ""
+          },
+          {
+            "prog_code": "LATINAMERSTUD_BA",
+            "prog_shortname": "baLatinAmerStud",
+            "prog_name": "BA Latin American Studies",
+            "prog_level": "Bachelor",
+            "prog_del_mode": "Blended",
+            "dept_code": "DMAC",
+            "prog_major_credits": 70,
+            "prog_core_credits": 30,
+            "prog_elect_credits": 21,
+            "prog_supp_credits": 0,
+            "prog_description": ""
+          },
+          {
+            "prog_code": "SPANFORBUSI_BA",
+            "prog_shortname": "baSpanForBusi",
+            "prog_name": "BA Spanish for Business",
+            "prog_level": "Bachelor",
+            "prog_del_mode": "Blended",
+            "dept_code": "DMAC",
+            "prog_major_credits": 77,
+            "prog_core_credits": 30,
+            "prog_elect_credits": 0,
+            "prog_supp_credits": 18,
+            "prog_description": ""
           },
           {
             "prog_code": "GRDS_AAS",
@@ -1009,7 +1063,7 @@
           },
           {
             "prog_code": "SPAN_AAS",
-            "prog_shortname": "aaSpanForBus",
+            "prog_shortname": "aasSpanForBus",
             "prog_name": "AAS - Spanish for Business",
             "prog_level": "Associate",
             "prog_del_mode": "Blended",
@@ -1095,7 +1149,7 @@
             "prog_core_credits": 0,
             "prog_elect_credits": 0,
             "prog_supp_credits": 0,
-            "prog_description": "The Certificate in Advertising and Promotions will develop students’ basic skills in advertising, marketing, graphic design, and communications. It will expose them to all the facets of today’s advertising industry, such as digital marketing, animation, copywriting and event management, all of which are important elements in brand positioning and consumer engagement."
+            "prog_description": "The Certificate in Advertising and Promotions will develop students' basic skills in advertising, marketing, graphic design, and communications. It will expose them to all the facets of today's advertising industry, such as digital marketing, animation, copywriting and event management, all of which are important elements in brand positioning and consumer engagement."
           },
           {
             "prog_code": "CERT_PUBR",
@@ -1109,6 +1163,32 @@
             "prog_elect_credits": 0,
             "prog_supp_credits": 0,
             "prog_description": "Given that public relations and advertising go hand in hand, the contemporary public relations practitioner must be multi-skilled and able to multi task. With this in mind, this certificate is designed to prepare graduates to take charge of the social media presence of organizations, write and present speeches, organize PR events (mindful of all protocols), and deal with press releases to name a few."
+          },
+          {
+            "prog_code": "CERT_SPANSCTE",
+            "prog_shortname": "certSpanSCTE",
+            "prog_name": "Certificate in Spanish for Social, Cultural and Travel Experiences ",
+            "prog_level": "Certificate",
+            "prog_del_mode": "Blended",
+            "dept_code": "DMAC",
+            "prog_major_credits": 16,
+            "prog_core_credits": 0,
+            "prog_elect_credits": 0,
+            "prog_supp_credits": 0,
+            "prog_description": ""
+          },
+          {
+            "prog_code": "CERT_SPANSCTE",
+            "prog_shortname": "certSPANSCB",
+            "prog_name": "Certificate in Spanish for Successful Communication in Business",
+            "prog_level": "Certificate",
+            "prog_del_mode": "Blended",
+            "dept_code": "DMAC",
+            "prog_major_credits": 16,
+            "prog_core_credits": 0,
+            "prog_elect_credits": 0,
+            "prog_supp_credits": 0,
+            "prog_description": ""
           }
         ]
       }
