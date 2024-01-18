@@ -339,27 +339,54 @@ const allCourses = [
     credits: "3"
   },
   {
-    coursecode: "CATR121",
+    coursecode: "CATR 102",
+    coursename: "CAT Technology I",
+    credits: "2"
+  },
+  {
+    coursecode: "CATR 111",
+    coursename: "CAT Machine Shorthand - Theory I",
+    credits: "4"
+  },
+  {
+    coursecode: "CATR 112",
+    coursename: "CAT Machine Shorthand - Theory I",
+    credits: "4"
+  },
+  {
+    coursecode: "CATR 202",
+    coursename: "CAT Technology II",
+    credits: "2"
+  },
+  
+  {
+    coursecode: "CATR 121",
     coursename: "CAT Machine Shorthand / Speed Building I",
     credits: "3"
   },
   {
-    coursecode: "CATR122",
+    coursecode: "CATR 122",
     coursename: "CAT Machine Shorthand / Speed Building II",
     credits: "3"
   },
+
   {
-    coursecode: "CATR221",
+    coursecode: "CATR 221",
     coursename: "CAT Machine Shorthand / Speed Building III",
     credits: "3"
   },
   {
-    coursecode: "CATR222",
+    coursecode: "CATR 222",
     coursename: "CAT Machine Shorthand / Speed Building IV",
     credits: "4"
   },
   {
-    coursecode: "CATR244",
+    coursecode: "CATR 223",
+    coursename: "CAT Machine Shorthand - Speed building V",
+    credits: "4"
+  },
+  {
+    coursecode: "CATR 266",
     coursename: "Internship",
     credits: "3"
   },
@@ -408,6 +435,11 @@ const allCourses = [
     coursecode: "CLTR 120",
     coursename: "Introduction to the Culture of Trinidad and Tobago",
     credits: "1"
+  },
+  {
+    coursecode: "COMM 100",
+    coursename: "Technical Report Writing",
+    credits: "2"
   },
   {
     coursecode: "COMM 104",
@@ -1105,6 +1137,11 @@ const allCourses = [
     credits: "6"
   },
   {
+    coursecode: "ENVH 312",
+    coursename: "Labelling",
+    credits: "2"
+  },
+  {
     coursecode: "ENVH 314",
     coursename: "Aetiology and Epidemiology of Vector Borne Diseases",
     credits: "4"
@@ -1113,6 +1150,11 @@ const allCourses = [
     coursecode: "ENVH 316",
     coursename: "Public Health Entomology",
     credits: "4"
+  },
+  {
+    coursecode: "ENVH 322",
+    coursename: "Food Microbiology",
+    credits: "3"
   },
   {
     coursecode: "ENVH 324",
@@ -1206,9 +1248,19 @@ const allCourses = [
     credits: "4"
   },
   {
+    coursecode: "ENVH 342",
+    coursename: "Meat Inspection",
+    credits: "2"
+  },
+  {
     coursecode: "ENVH 349",
     coursename: "Port and Vessels Sanitation",
     credits: "4"
+  },
+  {
+    coursecode: "ENVH 347",
+    coursename: "Food Borne Disease Investigations",
+    credits: "3"
   },
   {
     coursecode: "ENVH 348",
@@ -2002,6 +2054,11 @@ const allCourses = [
     credits: "2"
   },
   {
+    coursecode: "LAWW 123 ",
+    coursename: "Professional Ethics",
+    credits: "2"
+  },
+  {
     coursecode: "LAWW 125",
     coursename: "Ethics",
     credits: "3"
@@ -2718,53 +2775,58 @@ const allCourses = [
     credits: "3"
   },
   {
-    coursecode: "MUS* 151",
-    coursename: "Major Performing Ensemble I - Guitar",
-    credits: "1"
+    coursecode: "MUS* 131",
+    coursename: "Primary Applied Instrument I",
+    credits: "3"
   },
   {
-    coursecode: "MUS* 151",
-    coursename: "Major Performing Ensemble I - Guitar",
-    credits: "1"
+    coursecode: "MUS* 132",
+    coursename: "Primary Applied Instrument II",
+    credits: "3"
   },
   {
-    coursecode: "MUS* 151",
-    coursename: "Major Performing Ensemble I Guitar",
-    credits: "1"
+    coursecode: "MUS* 253",
+    coursename: "Primary Applied Instrument III",
+    credits: "3"
   },
   {
-    coursecode: "MUS* 152",
-    coursename: "Major Performing Ensemble II - Guitar",
-    credits: "1"
+    coursecode: "MUS* 254",
+    coursename: "Primary Applied Instrument IV",
+    credits: "3 "
   },
   {
     coursecode: "MUS* 263",
-    coursename: "Major Performing Ensemble III Guitar",
+    coursename: "Major Performing Ensemble III",
     credits: "1"
   },
   {
     coursecode: "MUS* 264",
-    coursename: "Major Performing Ensemble IV Guitar",
+    coursename: "Major Performing Ensemble IV ",
     credits: "1"
   },
   {
+    coursecode: "MUS* 151",
+    coursename: "Major Performing Ensemble I",
+    credits: "1"
+  },
+  {
+    coursecode: "MUS* 152",
+    coursename: "Major Performing Emsemble II",
+    credits: "1"
+  },
+  {
+    coursecode: "MUS* 320",
+    coursename: "Junior Recital",
+    credits: "3"
+  },
+  {
+    coursecode: "MUS* 325",
+    coursename: "Recital Attendance",
+    credits: "0"
+  },
+  {
     coursecode: "MUSB 131",
-    coursename: "Primary Applied Instrument I Brass",
-    credits: "3"
-  },
-  {
-    coursecode: "MUSB 132",
-    coursename: "Primary Applied Instrument II Brass",
-    credits: "3"
-  },
-  {
-    coursecode: "MUSB 253",
-    coursename: "Primary Applied Instrument III Brass",
-    credits: "3"
-  },
-  {
-    coursecode: "MUSB 254",
-    coursename: "Primary Applied Instrument IV Brass",
+    coursename: "Primary Applied Instrument I - Brass",
     credits: "3"
   },
   {
@@ -8388,6 +8450,1332 @@ const programmes = [
     duration: ["Full-time: N/A", "Part-time: 2 semesters"],
     mode: ["Blended"],
     GATE: ["Approved"],
+    specialMatricReqs: [],
+  },
+  {
+  prog_shortname: "aaLitInEnglish",
+    majorcourses: [
+      "ENGL 121",
+      "ENGL 122",
+      "ENGL 123",
+      "ENGL 130",
+      "ENGL 131",
+      "ENGL 230",
+      "ENGL 240",
+      "ENGL 241",
+      "ENGL 242",
+      "ENGL 250",
+      "ENGL 251",
+      "ENGL 270",
+                          
+    ],
+    specialcourses: [],
+    electivecourses: [],
+    corecourses: ["WRIT 117", "LIBS 130", "MATH 116", "FYEC 100", "COMM 118", "SOCI 102", "RELI 205", "HIST 210"],
+    supportcourses: [],
+    totalcredits: 60,
+    salaries: [
+      {
+        position:"NOT AVAIALBLE",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      }
+           
+    ],
+    semester: ["September", "January"],
+    campus: ["City Campus"],
+    duration: ["Full-time:  semesters", "Part-time:  semesters"],
+    mode: ["Blended"],
+    GATE: ["Approved"],
+    specialMatricReqs: [],
+  },
+  {
+  prog_shortname: "aaFilmVidProd",
+    majorcourses: [
+      "FILM 121",
+      "FILM 140",
+      "FILM 150",
+      "FILM 161",
+      "FILM 251",
+      "FILM 261",
+      "FILM 271",
+      "FILM 330",
+                         
+    ],
+    specialcourses: [],
+    electivecourses: [],
+    corecourses: ["WRIT 117", "LIBS 130", "MATH 116", "FYEC 100", "COMM 108", "ENTP 210", "RELI 205" ],
+    supportcourses: ["GRDE 129", "GRDE 130", "GRDE 253", "COMM 135", "GRDE 215"],
+    totalcredits: 60,
+    salaries: [
+      {
+        position:"Directors of Photography",
+        figure: "",
+      },
+      {
+        position: "Video Editors",
+        figure: "",
+      },
+      {
+        position: "Media Cameramen",
+        figure: "",
+      },
+      {
+        position: "Script Writers",
+        figure: "",
+      },
+      {
+        position: "Stage Managers",
+        figure: "",
+      }
+           
+    ],
+    semester: ["September", "January"],
+    campus: ["City Campus", "North Learning Centre", "South Campus"],
+    duration: ["Full-time: 4 semesters", "Part-time: 6 semesters"],
+    mode: ["Blended"],
+    GATE: ["Approved"],
+    specialMatricReqs: [],
+  },
+  {
+  prog_shortname: "aaPerfArtMusic-Percussion",
+    majorcourses: [
+      "MUSC 155",
+      "MUSC 156",
+      "MUSC 157",
+      "MUSC 158",
+      "MUSC 185",
+      "MUSC 205",
+      "MUSC 294",
+      "MUSC 290",
+      "MUSC 315",
+      "MUSP 121",
+      "MUSP 122",
+                     
+    ],
+    specialcourses: [
+      "MUSD 131",
+      "MUSD 132",
+      "MUSD 253",
+      "MUSD 254",
+      "MUS* 151",
+      "MUS* 152",
+      "MUS* 263",
+      "MUS* 264",
+      "MUSD 320",
+      "MUSD 325",
+  ],
+    
+    electivecourses: ["XXXX ###", "XXXX ###"],
+    corecourses: ["WRIT 117", "LIBS 130", "MATH 116", "FYEC 100", "COMM 118"],
+    supportcourses: [],
+    totalcredits: 65,
+    salaries: [
+      {
+        position:"",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      }
+           
+    ],
+    semester: ["September", "January"],
+    campus: ["City Campus"],
+    duration: ["Full-time:  semesters", "Part-time:  semesters"],
+    mode: ["Blended"],
+    GATE: ["Approved"],
+    specialMatricReqs: [],
+  },
+  {
+  prog_shortname: "aaPerfArtMusic-Guitar",
+    majorcourses: [
+      "MUSC 155",
+      "MUSC 156",
+      "MUSC 157",
+      "MUSC 158",
+      "MUSC 185",
+      "MUSC 205",
+      "MUSC 294",
+      "MUSC 290",
+      "MUSC 315",
+      "MUSP 121",
+      "MUSP 122",
+                     
+    ],
+    specialcourses: [
+      "MUSG 131",
+      "MUSG 132",
+      "MUSG 253",
+      "MUSG 254",
+      "MUS* 151",
+      "MUS* 152",
+      "MUS* 263",
+      "MUS* 264",
+      "MUSG 320",
+      "MUSG 325",
+  ],
+    
+    electivecourses: ["XXXX ###", "XXXX ###"],
+    corecourses: ["WRIT 117", "LIBS 130", "MATH 116", "FYEC 100", "COMM 118"],
+    supportcourses: [],
+    totalcredits: 65,
+    salaries: [
+      {
+        position:"",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      }
+           
+    ],
+    semester: ["September", "January"],
+    campus: ["City Campus"],
+    duration: ["Full-time:  semesters", "Part-time:  semesters"],
+    mode: ["Blended"],
+    GATE: ["Approved"],
+    specialMatricReqs: [],
+  },
+  {
+  prog_shortname: "aaPerfArtMusic-WW",
+    majorcourses: [
+      "MUSC 155",
+      "MUSC 156",
+      "MUSC 157",
+      "MUSC 158",
+      "MUSC 185",
+      "MUSC 205",
+      "MUSC 294",
+      "MUSC 290",
+      "MUSC 315",
+      "MUSP 121",
+      "MUSP 122",
+                     
+    ],
+    specialcourses: [
+      "MUSW 131",
+      "MUSW 132",
+      "MUSW 253",
+      "MUSW 254",
+      "MUS* 151",
+      "MUS* 152",
+      "MUS* 263",
+      "MUS* 264",
+      "MUSW 320",
+      "MUSW 325",
+  ],
+    
+    electivecourses: ["XXXX ###", "XXXX ###"],
+    corecourses: ["WRIT 117", "LIBS 130", "MATH 116", "FYEC 100", "COMM 118"],
+    supportcourses: [],
+    totalcredits: 65,
+    salaries: [
+      {
+        position:"",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      }
+           
+    ],
+    semester: ["September", "January"],
+    campus: ["City Campus"],
+    duration: ["Full-time:  semesters", "Part-time:  semesters"],
+    mode: ["Blended"],
+    GATE: ["Approved"],
+    specialMatricReqs: [],
+  },
+  {
+  prog_shortname: "aaPerfArtMusic-Voice",
+    majorcourses: [
+      "MUSC 155",
+      "MUSC 156",
+      "MUSC 157",
+      "MUSC 158",
+      "MUSC 185",
+      "MUSC 205",
+      "MUSC 294",
+      "MUSC 290",
+      "MUSC 315",
+      "MUSP 121",
+      "MUSP 122",
+                     
+    ],
+    specialcourses: [
+      "MUSV 131",
+      "MUSV 132",
+      "MUSV 253",
+      "MUSV 254",
+      "MUS* 151",
+      "MUS* 152",
+      "MUS* 263",
+      "MUS* 264",
+      "MUSV 320",
+      "MUSV 325",
+  ],
+    
+    electivecourses: ["XXXX ###", "XXXX ###"],
+    corecourses: ["WRIT 117", "LIBS 130", "MATH 116", "FYEC 100", "COMM 118"],
+    supportcourses: [],
+    totalcredits: 65,
+    salaries: [
+      {
+        position:"",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      }
+           
+    ],
+    semester: ["September", "January"],
+    campus: ["City Campus"],
+    duration: ["Full-time:  semesters", "Part-time:  semesters"],
+    mode: ["Blended"],
+    GATE: ["Approved"],
+    specialMatricReqs: [],
+  },
+  {
+  prog_shortname: "aaPerfArtMusic-Pan",
+    majorcourses: [
+      "MUSC 155",
+      "MUSC 156",
+      "MUSC 157",
+      "MUSC 158",
+      "MUSC 185",
+      "MUSC 205",
+      "MUSC 294",
+      "MUSC 290",
+      "MUSC 315",
+      "MUSP 121",
+      "MUSP 122",
+                     
+    ],
+    specialcourses: [
+      "MUSP 131",
+      "MUSP 132",
+      "MUSP 253",
+      "MUSP 254",
+      "MUS* 151",
+      "MUS* 152",
+      "MUS* 263",
+      "MUS* 264",
+      "MUSP 320",
+      "MUSP 325",
+  ],
+    
+    electivecourses: ["XXXX ###", "XXXX ###"],
+    corecourses: ["WRIT 117", "LIBS 130", "MATH 116", "FYEC 100", "COMM 118"],
+    supportcourses: [],
+    totalcredits: 65,
+    salaries: [
+      {
+        position:"",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      }
+           
+    ],
+    semester: ["September", "January"],
+    campus: ["City Campus"],
+    duration: ["Full-time:  semesters", "Part-time:  semesters"],
+    mode: ["Blended"],
+    GATE: ["Approved"],
+    specialMatricReqs: [],
+  },
+  {
+  prog_shortname: "aaPerfArtMusic-Piano",
+    majorcourses: [
+      "MUSC 155",
+      "MUSC 156",
+      "MUSC 157",
+      "MUSC 158",
+      "MUSC 185",
+      "MUSC 205",
+      "MUSC 294",
+      "MUSC 290",
+      "MUSC 315",
+      "MUSP 121",
+      "MUSP 122",
+                     
+    ],
+    specialcourses: [
+      "MUSP 131",
+      "MUSP 132",
+      "MUSP 253",
+      "MUSP 254",
+      "MUS* 151",
+      "MUS* 152",
+      "MUS* 263",
+      "MUS* 264",
+      "MUSP 320",
+      "MUSP 325",
+  ],
+    
+    electivecourses: ["XXXX ###", "XXXX ###"],
+    corecourses: ["WRIT 117", "LIBS 130", "MATH 116", "FYEC 100", "COMM 118"],
+    supportcourses: [],
+    totalcredits: 65,
+    salaries: [
+      {
+        position:"",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      }
+           
+    ],
+    semester: ["September", "January"],
+    campus: ["City Campus"],
+    duration: ["Full-time:  semesters", "Part-time:  semesters"],
+    mode: ["Blended"],
+    GATE: ["Approved"],
+    specialMatricReqs: [],
+  },
+  {
+  prog_shortname: "aaPerfArtMusic-Pan",
+    majorcourses: [
+      "MUSC 155",
+      "MUSC 156",
+      "MUSC 157",
+      "MUSC 158",
+      "MUSC 185",
+      "MUSC 205",
+      "MUSC 294",
+      "MUSC 290",
+      "MUSC 315",
+      "MUSP 121",
+      "MUSP 122",
+                     
+    ],
+    specialcourses: [
+      "MUSS 131",
+      "MUSS 132",
+      "MUSS 253",
+      "MUSS 254",
+      "MUS* 151",
+      "MUS* 152",
+      "MUS* 263",
+      "MUS* 264",
+      "MUSS 320",
+      "MUSS 325",
+  ],
+    
+    electivecourses: ["XXXX ###", "XXXX ###"],
+    corecourses: ["WRIT 117", "LIBS 130", "MATH 116", "FYEC 100", "COMM 118"],
+    supportcourses: [],
+    totalcredits: 65,
+    salaries: [
+      {
+        position:"",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      }
+           
+    ],
+    semester: ["September", "January"],
+    campus: ["City Campus"],
+    duration: ["Full-time:  semesters", "Part-time:  semesters"],
+    mode: ["Blended"],
+    GATE: ["Approved"],
+    specialMatricReqs: [],
+  },
+  {
+  prog_shortname: "aaPerfArtMusic-Brass",
+    majorcourses: [
+      "MUSC 155",
+      "MUSC 156",
+      "MUSC 157",
+      "MUSC 158",
+      "MUSC 185",
+      "MUSC 205",
+      "MUSC 294",
+      "MUSC 290",
+      "MUSC 315",
+      "MUSP 121",
+      "MUSP 122",
+                     
+    ],
+    specialcourses: [
+      "MUSB 131",
+      "MUSB 132",
+      "MUSB 253",
+      "MUSB 254",
+      "MUS* 151",
+      "MUS* 152",
+      "MUS* 263",
+      "MUS* 264",
+      "MUSB 320",
+      "MUSB 325",
+  ],
+    
+    electivecourses: ["XXXX ###", "XXXX ###"],
+    corecourses: ["WRIT 117", "LIBS 130", "MATH 116", "FYEC 100", "COMM 118"],
+    supportcourses: [],
+    totalcredits: 65,
+    salaries: [
+      {
+        position:"",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      }
+           
+    ],
+    semester: ["September", "January"],
+    campus: ["City Campus"],
+    duration: ["Full-time:  semesters", "Part-time:  semesters"],
+    mode: ["Blended"],
+    GATE: ["Approved"],
+    specialMatricReqs: [],
+  },
+  {
+  prog_shortname: "certFilmVidProd",
+    majorcourses: [
+      "FILM 121",
+      "FILM 140",
+      "FILM 150",
+      "FILM 261",
+      "FILM 271"
+                                          
+    ],
+    specialcourses: [],
+    electivecourses: [],
+    corecourses: [],
+    supportcourses: [],
+    totalcredits: 15,
+    salaries: [
+      {
+        position:"NOT AVAILABLE",
+        figure: "NOT AVAILABLE",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      }
+         
+    ],
+    semester: ["September", "January"],
+    campus: ["North Learning Centre", "City Campus", "South Campus"],
+    duration: ["Full-time: N/A", "Part-time: 2 semesters"],
+    mode: ["Blended"],
+    GATE: ["Approved"],
+    specialMatricReqs: [],
+  },
+  {
+  prog_shortname: "certMusicPerf-Percussion",
+    majorcourses: [
+      "MUSC 155",
+      "MUSC 157",
+      "MUSC 185",
+      "MUSC 315"
+                                           
+    ],
+    specialcourses: ["MUSD 131", "MUS* 151", "MUSS 404" ],
+    electivecourses: [],
+    corecourses: [],
+    supportcourses: ["ENGL 121"],
+    totalcredits: 15,
+    salaries: [
+      {
+        position:"NOT AVAILABLE",
+        figure: "NOT AVAILABLE",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      }
+         
+    ],
+    semester: ["September", "January"],
+    campus: [""],
+    duration: ["Full-time: ", "Part-time: "],
+    mode: ["Blended"],
+    GATE: ["Approved"],
+    specialMatricReqs: [],
+  },
+  {
+  prog_shortname: "certMusicPerf-Guitar",
+    majorcourses: [
+      "MUSC 155",
+      "MUSC 157",
+      "MUSC 185",
+      "MUSC 315"
+                                           
+    ],
+    specialcourses: ["MUSD 131", "MUS* 151", "MUSC 205", "MUSG 304" ],
+    electivecourses: [],
+    corecourses: [],
+    supportcourses: ["ENGL 121"],
+    totalcredits: 15,
+    salaries: [
+      {
+        position:"NOT AVAILABLE",
+        figure: "NOT AVAILABLE",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      }
+         
+    ],
+    semester: ["September", "January"],
+    campus: [""],
+    duration: ["Full-time: ", "Part-time: "],
+    mode: ["Blended"],
+    GATE: ["Approved"],
+    specialMatricReqs: [],
+  },
+  {
+  prog_shortname: "certMusicPerf-Piano",
+    majorcourses: [
+      "MUSC 155",
+      "MUSC 157",
+      "MUSC 185",
+      "MUSC 315"
+                                           
+    ],
+    specialcourses: ["MUSP 131", "MUS* 151", "MUSP 328", "MUSP 405" ],
+    electivecourses: [],
+    corecourses: [],
+    supportcourses: ["ENGL 121"],
+    totalcredits: 15,
+    salaries: [
+      {
+        position:"NOT AVAILABLE",
+        figure: "NOT AVAILABLE",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      }
+         
+    ],
+    semester: ["September", "January"],
+    campus: [""],
+    duration: ["Full-time: ", "Part-time: "],
+    mode: ["Blended"],
+    GATE: ["Approved"],
+    specialMatricReqs: [],
+  },
+  {
+  prog_shortname: "certMusicPerf-Pan",
+    majorcourses: [
+      "MUSC 155",
+      "MUSC 157",
+      "MUSC 185",
+      "MUSC 315"
+                                           
+    ],
+    specialcourses: ["MUSS 131", "MUS* 151", "MUSS 404" ],
+    electivecourses: [],
+    corecourses: [],
+    supportcourses: ["ENGL 121"],
+    totalcredits: 15,
+    salaries: [
+      {
+        position:"NOT AVAILABLE",
+        figure: "NOT AVAILABLE",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      }
+         
+    ],
+    semester: ["September", "January"],
+    campus: [""],
+    duration: ["Full-time: ", "Part-time: "],
+    mode: ["Blended"],
+    GATE: ["Approved"],
+    specialMatricReqs: [],
+  },
+  {
+  prog_shortname: "certMusicPerf-WW",
+    majorcourses: [
+      "MUSC 155",
+      "MUSC 157",
+      "MUSC 185",
+      "MUSC 315"
+                                           
+    ],
+    specialcourses: ["MUSW 131", "MUSJ 151", "MUSC 205", "MUSI 304" ],
+    electivecourses: [],
+    corecourses: [],
+    supportcourses: ["ENGL 121"],
+    totalcredits: 15,
+    salaries: [
+      {
+        position:"NOT AVAILABLE",
+        figure: "NOT AVAILABLE",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      }
+         
+    ],
+    semester: ["September", "January"],
+    campus: [""],
+    duration: ["Full-time: ", "Part-time: "],
+    mode: ["Blended"],
+    GATE: ["Approved"],
+    specialMatricReqs: [],
+  },
+  {
+  prog_shortname: "certMusicPerf-Brass",
+    majorcourses: [
+      "MUSC 155",
+      "MUSC 157",
+      "MUSC 185",
+      "MUSC 315"
+                                           
+    ],
+    specialcourses: ["MUSB 131", "MUSJ 151", "MUSC 205", "MUSI 304" ],
+    electivecourses: [],
+    corecourses: [],
+    supportcourses: ["ENGL 121"],
+    totalcredits: 15,
+    salaries: [
+      {
+        position:"NOT AVAILABLE",
+        figure: "NOT AVAILABLE",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      }
+         
+    ],
+    semester: ["September", "January"],
+    campus: [""],
+    duration: ["Full-time: ", "Part-time: "],
+    mode: ["Blended"],
+    GATE: ["Approved"],
+    specialMatricReqs: [],
+  },
+  {
+  prog_shortname: "certMusicPerf-Voice",
+    majorcourses: [
+      "MUSC 155",
+      "MUSC 157",
+      "MUSC 185",
+      "MUSC 315"
+                                           
+    ],
+    specialcourses: ["MUSV 131", "MUSV 151", "MUSC 303" ],
+    electivecourses: [],
+    corecourses: [],
+    supportcourses: ["ENGL 121"],
+    totalcredits: 15,
+    salaries: [
+      {
+        position:"NOT AVAILABLE",
+        figure: "NOT AVAILABLE",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      }
+         
+    ],
+    semester: ["September", "January"],
+    campus: [""],
+    duration: ["Full-time: ", "Part-time: "],
+    mode: ["Blended"],
+    GATE: ["Approved"],
+    specialMatricReqs: [],
+  },
+  {
+  prog_shortname: "aasCat",
+    majorcourses: [
+      "OFAD 101",
+      "CATR 111",
+      "CATR 102",
+      "COTR 110",
+      "CATR 122",
+      "OFAD 102",
+      "CATR 112",
+      "CATR 121",
+      "CATR 202",
+      "CATR 221",
+      "CATR 266",
+      "CATR 223",
+      "CATR 222",
+      "LAWW 121"
+                 
+    ],
+    specialcourses: [],
+    
+    electivecourses: [],
+    corecourses: ["HIST 210", "LIBS 130", "MATH 116", "ENTP 210", "COMM 118"],
+    supportcourses: ["LANG 097", "COMM 125"],
+    totalcredits: 61,
+    salaries: [
+      {
+        position:"",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      }
+           
+    ],
+    semester: ["September", "January"],
+    campus: ["Chaguanas Campus"],
+    duration: ["Full-time: 4 semesters", "Part-time: 6 semesters"],
+    mode: ["Blended"],
+    GATE: [],
+    specialMatricReqs: [],
+  },
+  {
+  prog_shortname: "advdipVecCont",
+    majorcourses: [
+      "COMM 100",
+      "ENVH 314",
+      "ENVH 316",
+      "ENVH 322",
+      "ENVH 325",
+      "ENVH 332",
+      "ENVH 360",
+      "GISY 172",
+      "MGMT 105",
+      "SOBE 103",
+      
+    ],
+    specialcourses: [],
+    
+    electivecourses: [],
+    corecourses: [],
+    supportcourses: [],
+    totalcredits: 33,
+    salaries: [
+      {
+        position:"",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      }
+           
+    ],
+    semester: ["September", "January"],
+    campus: ["Chaguanas Campus"],
+    duration: ["Full-time: N/A", "Part-time: 4 semesters"],
+    mode: ["Blended"],
+    GATE: [],
+    specialMatricReqs: [],
+  },
+  {
+  prog_shortname: "advdipPortHealth",
+    majorcourses: [
+      "ENVH 317",
+      "HLED 300",
+      "ENVH 346",
+      "ENVH 325",
+      "ENVH 326",
+      "ENVH 349",
+      "SOBE 103",
+      "ENVH 348",
+      "LAWW 123",
+      "COMM 100",
+      "ENVH 366"
+      
+    ],
+    specialcourses: [],
+    
+    electivecourses: [],
+    corecourses: [],
+    supportcourses: [],
+    totalcredits: 28,
+    salaries: [
+      {
+        position:"",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      }
+           
+    ],
+    semester: ["September", "January"],
+    campus: ["Chaguanas Campus"],
+    duration: ["Full-time: N/A", "Part-time: 4 semesters"],
+    mode: ["Blended"],
+    GATE: [],
+    specialMatricReqs: [],
+  },
+  {
+  prog_shortname: "advdipFoodInspec",
+    majorcourses: [
+      "ENVH 330",
+      "ENVH 322",
+      "ENVH 312",
+      "ENVH 334",
+      "ENVS 307",
+      "ENVH 310",
+      "SOBE 103",
+      "ENVH 342",
+      "MGMT 105",
+      "LAWW 123",
+      "COMM 100",
+      "ENVH 347"
+      
+    ],
+    specialcourses: [],
+    
+    electivecourses: [],
+    corecourses: [],
+    supportcourses: [],
+    totalcredits: 28,
+    salaries: [
+      {
+        position:"",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      }
+           
+    ],
+    semester: ["September", "January"],
+    campus: ["Chaguanas Campus"],
+    duration: ["Full-time: N/A", "Part-time: 4 semesters"],
+    mode: ["Blended"],
+    GATE: [],
+    specialMatricReqs: [],
+  },
+  {
+  prog_shortname: "certCourtTrans",
+    majorcourses: [
+      "COMM 125",
+      "COTR 110",
+      "COTR 111",
+      "COTR 121",
+      "COTR 131",
+      "COTR 141",
+      "COTR 266",
+      "LAWW 121",
+      "OFAD 101",
+      "OFAD 102",
+      "OFAD 103",
+      "LANG 097"
+      
+    ],
+    specialcourses: [],
+    
+    electivecourses: [],
+    corecourses: [],
+    supportcourses: [],
+    totalcredits: 25,
+    salaries: [
+      {
+        position:"",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      }
+           
+    ],
+    semester: ["September", "January"],
+    campus: ["Chaguanas Campus"],
+    duration: ["Full-time: N/A", "Part-time: 3 semesters"],
+    mode: ["Blended"],
+    GATE: ["Approved"],
+    specialMatricReqs: [],
+  },
+  {
+  prog_shortname: "certTourGuide",
+    majorcourses: [
+      "COMM 125",
+      "COTR 110",
+      "COTR 111",
+      "COTR 121",
+      "COTR 131",
+      "COTR 141",
+      "COTR 266",
+      "LAWW 121",
+      "OFAD 101",
+      "OFAD 102",
+      "OFAD 103",
+      "LANG 097"
+      
+    ],
+    specialcourses: [],
+    
+    electivecourses: [],
+    corecourses: [],
+    supportcourses: [],
+    totalcredits: 25,
+    salaries: [
+      {
+        position:"",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      }
+           
+    ],
+    semester: ["September", "January"],
+    campus: ["Chaguanas Campus"],
+    duration: ["15 weeks"],
+    mode: ["Face-to-Face"],
+    GATE: [],
+    specialMatricReqs: [],
+  },
+  {
+  prog_shortname: "compassCert",
+    majorcourses: [
+      "BIOL 090",
+      "BIOL 092",
+      "CHEM 090",
+      "CHEM 092",
+      "ITEC 098",
+      "LANG 095",
+      "LANG 096",
+      "LANG 097",
+      "LANG 098",
+      "MATH 091",
+      "MATH 092",
+      "MATH 093",
+      "PHYS 090",
+      "PHYS 092",
+      "SDEV 010"
+      
+    ],
+    specialcourses: [],
+    
+    electivecourses: [],
+    corecourses: [],
+    supportcourses: [],
+    totalcredits: 45,
+    salaries: [
+      {
+        position:"",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      }
+           
+    ],
+    semester: ["September", "January"],
+    campus: ["City Campus"],
+    duration: ["Full-time:  ",  "Part-time:    "],
+    mode: ["Blended"],
+    GATE: [],
+    specialMatricReqs: [],
+  },
+  {
+  prog_shortname: "collegestarttCert",
+    majorcourses: [
+      "BIOL 090",
+      "BIOL 092",
+      "CHEM 090",
+      "CHEM 092",
+      "ITEC 098",
+      "LANG 095",
+      "LANG 096",
+      "LANG 097",
+      "LANG 098",
+      "MATH 091",
+      "MATH 092",
+      "MATH 093",
+      "PHYS 090",
+      "PHYS 092",
+      "SDEV 010"
+      
+    ],
+    specialcourses: [],
+    
+    electivecourses: [],
+    corecourses: [],
+    supportcourses: [],
+    totalcredits: 45,
+    salaries: [
+      {
+        position:"",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      },
+      {
+        position: "",
+        figure: "",
+      }
+           
+    ],
+    semester: ["September", "January"],
+    campus: ["City Campus"],
+    duration: ["Full-time:  ", "Part-time: "],
+    mode: ["Blended"],
+    GATE: [],
     specialMatricReqs: [],
   },
 ];

@@ -41,16 +41,7 @@ export const staffdata = [
     email: "mcharles@costaatt.edu.tt",
     phone: "1-868-625-5030 ext 5463",
   },
-  {
-    photo: require("../../../../../images/Programmes/deanavatar.jpg"),
-    dept_code: "ICTD",
-    handle: "cbernard",
-    altText: " photo Cindy Bernard",
-    name: "Cindy Bernard",
-    position: "Programme Assistant (Library Science)",
-    email: "cbernard@costaatt.edu.tt",
-    phone: "1-868-625-5030 ext 5418",
-  },
+  
   {
     photo: require("../../../../../images/Programmes/deanavatar.jpg"),
     dept_code: "ICTD",
